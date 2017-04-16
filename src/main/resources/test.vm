@@ -1,0 +1,11 @@
+<html>
+<body>
+
+<form name="loginForm" method="post" action="suggestion">
+    Input Text: <input type="text" name="inputText"/> <br/>
+    <input type="submit" value="Submit" />
+</form>
+
+
+</body>
+<html>

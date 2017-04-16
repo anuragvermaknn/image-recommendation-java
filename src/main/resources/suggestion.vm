@@ -1,0 +1,20 @@
+<html>
+<body>
+
+Suggestions
+
+#foreach ($image in $images)
+<li>
+Sticker Id is "$image.getStickerId()". Sticker Text is "$image.getStickerText()"
+<img src="$image.getUrl()"/>
+</li>
+#end
+
+
+<form name="loginForm" method="post" action="suggestion">
+    Input Text: <input type="text" name="inputText"/> <br/>
+    <input type="submit" value="Submit" />
+</form>
+
+</body>
+<html>
